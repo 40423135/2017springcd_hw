@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-03-23T09:53:00-00:00</lastmod>
+<lastmod>2017-03-30T10:02:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-03-23T09:53:00-00:00</lastmod>
+<lastmod>2017-03-30T10:02:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-03-23T09:53:00-00:00</lastmod>
+<lastmod>2017-03-30T10:02:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-03-23T09:53:00-00:00</lastmod>
+<lastmod>2017-03-30T10:02:35-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-03-08T16:59:11+08:00</lastmod>
+<lastmod>2017-03-30T09:41:58+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -74,20 +74,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./category/ppt.html</loc>
-<lastmod>2017-02-25T12:08:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./category/seat-table.html</loc>
-<lastmod>2017-02-28T12:08:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./tag/hw.html</loc>
 <lastmod>2017-03-02T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -95,28 +81,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/ppt.html</loc>
-<lastmod>2017-02-25T12:08:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/seat-table.html</loc>
-<lastmod>2017-02-28T12:08:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./author/2017springcd_ag1.html</loc>
-<lastmod>2017-02-28T12:08:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./author/40423120.html</loc>
+<loc>./author/40423135.html</loc>
 <lastmod>2017-03-02T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
