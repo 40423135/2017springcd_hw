@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423135 陳冠錡 Blog</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-03-02T12:08:00+08:00</updated><entry><title>協同產品設計實習 第二周作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-er-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-02T12:08:00+08:00</published><updated>2017-03-02T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-02:./xie-tong-chan-pin-she-ji-shi-xi-di-er-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423135 陳冠錡 Blog</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-03-09T12:08:00+08:00</updated><entry><title>第三周作業</title><link href="./di-san-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-09T12:08:00+08:00</published><updated>2017-03-09T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-09:./di-san-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;翻譯影片
+&lt;/p&gt;
+&lt;p&gt;hyperworks3 - hyperworks 3 Youtube 自動字幕
+&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?v=Pn3tKkeFVgI" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Optistuct's one of our focus area&lt;/p&gt;
+&lt;p&gt;Optistuct是我們的重點領域之一&lt;/p&gt;
+&lt;p&gt;is nonlinear large deformation analysis and in 2017 we added nonlinear transient analysis the main purpose was to couple Acusolve and structure interaction but also one development that happens during the last year came&lt;/p&gt;
+&lt;p&gt;是非線性大變形分析，在2017年，我們添加了非線性瞬態分析，其主要目的是耦合Acusolve和結構的相互作用，但也發生在去年發生的一個發展&lt;/p&gt;
+&lt;p&gt;out these lights and different point releases and it's all really maturing in 2017 is our contact analysis we have different ways of defining large sliding contact and things like that the fast contact analysis for for small&lt;/p&gt;
+&lt;p&gt;這些燈和不同點的釋放，這一切都在2017年真正成熟是我們的聯繫分析我們有不同的方式來定義大滑動接觸和事情，如快速接觸分析為小&lt;/p&gt;
+&lt;p&gt;deformation is blazing fast at the very simple idea that makes a solution very fast and that adds to optistruct as really a leading nonlinear structural solver our two major optimization packages are optistruct&lt;/p&gt;
+&lt;p&gt;變形是快速的，在一個非常簡單的想法，使解決方案非常快，並增加了optistruct作為真正的領先的非線性結構解算器我們的兩個主要優化包是光&lt;/p&gt;
+&lt;p&gt;for structural optimization as a huge multidisciplinary component tools and hyperstudy for general optimization work on multidisciplinary optimization Optistruct spend a lot of time continuing the&lt;/p&gt;
+&lt;p&gt;結構優化作為一個巨大的多學科組件工具和hyperstudy對多學科優化的一般優化工作Optistruct花費大量的時間繼續&lt;/p&gt;
+&lt;p&gt;development for topology optimization and we have the wave topology optimization we kept on working on the manufacturing solution to designed optimization the multimodal optimization is really maturing and we find more and&lt;/p&gt;
+&lt;p&gt;拓撲優化的開發，我們有波拓撲優化，我們繼續致力於製造解決方案設計優化多模態優化是真正成熟的，我們發現更多，&lt;/p&gt;
+&lt;p&gt;more applications where that help our goal is actually to include all the physics in the optimizations of the team right now is working on optimization for nonlinear problems and so on and then hyperstudy on the other hand is going&lt;/p&gt;
+&lt;p&gt;更多的應用程序，其中幫助我們的目標是實際上包括所有的物理在團隊的優化現在是工作在非線性問題的優化等等，然後hyperstudy另一方面是&lt;/p&gt;
+&lt;p&gt;through a new transformation of the user experience or the user experience has changed a few years back but we are now trying to make it much more easy to use by hiding a lot of the advanced functionality to the regular users and&lt;/p&gt;
+&lt;p&gt;通過用戶體驗的新轉型或用戶體驗已經改變了幾年，但是我們現在正試圖通過隱藏許多高級功能給常規用戶更容易使用，&lt;/p&gt;
+&lt;p&gt;depending on the level of expertise or depending on the job that the user has to do they can customize the user experience he added a few new connection one of them is a flux connection such as the electromagnetic code that we just&lt;/p&gt;
+&lt;p&gt;取決於專業水平或根據用戶必須做的工作，他們可以定制用戶體驗他添加了一些新的連接，其中一個是通量連接，如電磁代碼，我們只是&lt;/p&gt;
+&lt;p&gt;acquired for a low frequency electromagnetic we can now take a flux database and put it into hyper study into your study as well&lt;/p&gt;
+&lt;p&gt;獲得了一個低頻電磁，我們現在可以採取通量數據庫，並把它進入高速研究&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>第二周作業</title><link href="./di-er-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-02T12:08:00+08:00</published><updated>2017-03-02T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-02:./di-er-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;更改stunnel設定檔ip位址&lt;/h1&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/dimG0uoppFw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
@@ -16,7 +39,7 @@
 &lt;h2&gt;作業心得&lt;/h2&gt;</summary><category term="hw"></category></entry><entry><title>設計二甲座位表</title><link href="./she-ji-er-jia-zuo-wei-biao.html" rel="alternate"></link><published>2017-02-28T12:08:00+08:00</published><updated>2017-02-28T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-02-28:./she-ji-er-jia-zuo-wei-biao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h2&gt;設計二甲座位表&lt;/h2&gt;
-&lt;p&gt;&lt;a href="./../2017/seet.html"&gt;seet&lt;/a&gt;&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>協同產品設計實習 第一周作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-yi-zhou-zuo-ye.html" rel="alternate"></link><published>2017-02-26T12:08:00+08:00</published><updated>2017-02-26T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-02-26:./xie-tong-chan-pin-she-ji-shi-xi-di-yi-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;&lt;a href="./../2017/seet.html"&gt;seet&lt;/a&gt;&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>第一周作業</title><link href="./di-yi-zhou-zuo-ye.html" rel="alternate"></link><published>2017-02-26T12:08:00+08:00</published><updated>2017-02-26T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-02-26:./di-yi-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;利用solvespace及onshape組裝四連桿機構&lt;/h1&gt;
 &lt;h2&gt;solvespace組裝影片&lt;/h2&gt;</summary><category term="hw"></category></entry><entry><title>協同產品設計實習 第一周簡報</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-di-yi-zhou-jian-bao.html" rel="alternate"></link><published>2017-02-25T12:08:00+08:00</published><updated>2017-02-25T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-02-25:./xie-tong-chan-pin-she-ji-shi-xi-di-yi-zhou-jian-bao.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
