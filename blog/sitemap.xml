@@ -5,35 +5,49 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-04-04T18:56:32-00:00</lastmod>
+<lastmod>2017-04-06T10:05:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-04-04T18:56:32-00:00</lastmod>
+<lastmod>2017-04-06T10:05:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-04-04T18:56:32-00:00</lastmod>
+<lastmod>2017-04-06T10:05:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-04-04T18:56:32-00:00</lastmod>
+<lastmod>2017-04-06T10:05:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-04-04T18:44:42+08:00</lastmod>
+<lastmod>2017-04-06T09:47:43+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./di-wu-zhou-zuo-ye.html</loc>
+<lastmod>2017-03-23T12:08:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./di-si-zhou-zuo-ye.html</loc>
+<lastmod>2017-03-16T12:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -67,29 +81,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./xie-tong-chan-pin-she-ji-shi-xi-di-yi-zhou-jian-bao.html</loc>
-<lastmod>2017-02-25T12:08:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./category/hw.html</loc>
-<lastmod>2017-03-09T12:08:00+08:06</lastmod>
+<lastmod>2017-03-23T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/hw.html</loc>
-<lastmod>2017-03-09T12:08:00+08:06</lastmod>
+<lastmod>2017-03-23T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40423135.html</loc>
-<lastmod>2017-03-09T12:08:00+08:06</lastmod>
+<lastmod>2017-03-23T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
