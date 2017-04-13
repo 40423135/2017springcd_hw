@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>40423135 陳冠錡 Blog</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-23T12:08:00+08:00</updated><entry><title>第五周作業</title><link href="./di-wu-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-23T12:08:00+08:00</published><updated>2017-03-23T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-23:./di-wu-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;利用v-rep設定單連桿運動
 &lt;/p&gt;
-&lt;p&gt;&lt;a href="http://imgur.com/GULbM5T"&gt;&lt;img src="http://i.imgur.com/GULbM5T.png" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;利用v-rep設定單連桿運動影片&lt;/h4&gt;
+&lt;iframe src="https://player.vimeo.com/video/213009933" width="640" height="396" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/213009933"&gt;v rep單連桿影片&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
 &lt;p&gt;心得:&lt;/p&gt;
-&lt;p&gt;透過老師的上課影片教學,可以讓我了解到 v-rep如何分解零件、設置旋轉軸、馬達....等!&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>第四周作業</title><link href="./di-si-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-16T12:08:00+08:00</published><updated>2017-03-16T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-16:./di-si-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;p&gt;透過老師的上課影片教學,可以讓我了解到 v-rep如何分解零件、設置旋轉軸
+看老師上課做滿難的，自己看影片實際跟著做練習了一次!&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>第四周作業</title><link href="./di-si-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-16T12:08:00+08:00</published><updated>2017-03-16T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-16:./di-si-zhou-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;ol&gt;
 &lt;li&gt;
@@ -15,7 +20,141 @@
 &lt;li&gt;
 &lt;p&gt;為各班各組在 https://mde2a2.kmol.info 主機上建立 cdbg1~ cdbg8, 以及 cdag1 ~ cdag8 等線上 Fossil SCM 倉儲, 用來管理各組協同產品設計實習過程中的純文件檔案&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</summary><category term="hw"></category></entry><entry><title>第三周作業</title><link href="./di-san-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-09T12:08:00+08:00</published><updated>2017-03-09T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-09:./di-san-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;翻譯影片
+&lt;/ol&gt;
+&lt;h3&gt;網際動態模擬&lt;/h3&gt;
+&lt;!-- 導入 Brython 標準程式庫 3.3.1 --&gt;
+
+&lt;script type="text/javascript" src="./../data/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;script type="text/javascript" src="./../data/Cango-8v05-min.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="./../data/Cango2D-7v04-min.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="./../data/CangoAnimation-4v01.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 Brython 時, 設定 pythonpath 為 data/py --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython({debug:1, pythonpath:['./../data/py']});
+}
+&lt;/script&gt;
+
+&lt;canvas id='robot' width='800' height='400'&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python"&gt;
+from browser import window
+
+cango2d = window.Cango2D.new
+shapedefs = window.shapeDefs
+obj2d = window.Obj2D.new
+tweener = window.Tweener.new
+
+cgo = cango2d("robot")
+# 清除畫面
+cgo.clearCanvas("lightyellow")
+cgo.setWorldCoords(-50, -50, 300)
+
+# 加上基軸與第一桿
+# 畫筆移到 -20, -10, 畫直線到 -10,-10 以及 -10,0 
+standData = ['M', -20,-10, 'L', -10,-10, -10,0, 'A', 10,10,0,0,0,10,0, 'L',10,-10, 20,-10, 20,-40, -20,-40,'z']
+stand = obj2d(standData, "SHAPE", {
+        "fillColor":'darkgray',
+        "border": True,
+        "strokeColor": "#222222" })
+axle0 = obj2d(shapedefs.circle(10), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222" })
+armGrp = cgo.createGroup2D(stand, axle0)
+
+segData = ['M',0,-8, 'A',8,8,0,0,0,0,8, 'L',50,8, 'A',8,8,0,0,0,50,-8, 'Z']
+seg1 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })
+# 利用 zIndex 決定疊層的先後次序
+axle1 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle1.translate(50, 0)
+seg1Grp = cgo.createGroup2D(seg1, axle1)
+armGrp.addObj(seg1Grp)
+
+# 加上第二軸
+seg2 = obj2d(segData, "SHAPE", {
+        "fillColor":'darkGray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": -1 })
+axle2 = obj2d(shapedefs.circle(8), "SHAPE", {
+        "fillColor":'gray',
+        "border": True,
+        "strokeColor": "#222222",
+        "zIndex": 1 })
+axle2.translate(50, 0)
+seg2Grp = cgo.createGroup2D(seg2, axle2)
+cgo.render(seg2Grp)
+# 請注意 seg2Grp 加上 seg1Grp 物件上
+seg1Grp.addObj(seg2Grp)
+
+seg3 = obj2d(segData, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+axle3 = obj2d(shapedefs.circle(6), "SHAPE", {
+        'fillColor':'gray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': 1 })
+axle3.translate(50, 0)
+seg3Grp = cgo.createGroup2D(seg3, axle3)
+seg2Grp.addObj(seg3Grp)
+
+seg4Data = ['M',0,-6, 'A',6,6,0,0,0,0,6, 'L',40,6, 40,12, 50,12, 50,-12, 40,-12, 40,-6, 'Z']
+seg4 = obj2d(seg4Data, "SHAPE", {
+        'fillColor':'darkGray',
+        'border': True,
+        'strokeColor': "#222222",
+        'zIndex': -1 })
+seg3Grp.addObj(seg4)
+
+# setup animation
+animData = {'s1': [0, 80, 45, 0],
+                  's2': [0, -60, -60, 0],
+                  's3': [0, -90, 0, 90, 0],
+                  's4': [0, 30, -90, 0]}
+
+armTwnr = tweener(0, 3500, 'loop')
+
+def initArm(opts):
+    seg2Grp.transform.translate(50,0)
+    seg3Grp.transform.translate(50,0)
+    seg4.transform.translate(50,0)
+
+
+def armPathFn(time, opts):
+    seg1Rot = armTwnr.getVal(time, opts.s1)
+    seg2Rot = armTwnr.getVal(time, opts.s2)
+    seg3Rot = armTwnr.getVal(time, opts.s3)
+    seg4Rot = armTwnr.getVal(time, opts.s4)
+
+    seg1Grp.transform.rotate(seg1Rot)
+    seg2Grp.transform.rotate(seg2Rot)
+    seg2Grp.transform.translate(50,0)
+    seg3Grp.transform.rotate(seg3Rot)
+    seg3Grp.transform.translate(50,0)
+    seg4.transform.rotate(seg4Rot)
+    seg4.transform.translate(50,0)
+
+cgo.animate(armGrp, initArm, armPathFn, animData)
+cgo.playAnimation()
+&lt;/script&gt;</summary><category term="hw"></category></entry><entry><title>第三周作業</title><link href="./di-san-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-09T12:08:00+08:00</published><updated>2017-03-09T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-09:./di-san-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;翻譯影片
 &lt;/p&gt;
 &lt;h4&gt;hyperworks3&lt;/h4&gt;
 &lt;iframe src="https://player.vimeo.com/video/207229503" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
