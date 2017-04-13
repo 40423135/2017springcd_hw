@@ -21,6 +21,30 @@
 &lt;p&gt;為各班各組在 https://mde2a2.kmol.info 主機上建立 cdbg1~ cdbg8, 以及 cdag1 ~ cdag8 等線上 Fossil SCM 倉儲, 用來管理各組協同產品設計實習過程中的純文件檔案&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;h3&gt;單連桿製作及導入v-rep&lt;/h3&gt;
+&lt;h4&gt;單連桿零件一&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="./../data/hw4/零件一.html" width="800" height="600"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h4&gt;單連桿零件一繪製影片&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/213015158" width="640" height="473" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/213015158"&gt;導入v-rep 零件一&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;單連桿零件二&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="./../data/hw4/零件二.html" width="800" height="600"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h4&gt;單連桿零件二繪製影片&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/213015169" width="640" height="473" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/213015169"&gt;導入v-rep 零件二&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;單連桿零件三&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="./../data/hw4/零件三.html" width="800" height="600"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h4&gt;單連桿零件三繪製影片&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/213015185" width="640" height="473" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/213015185"&gt;導入v-rep 零件三.mp4&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;單連桿組裝完成圖&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="./../data/hw4/組裝.html" width="800" height="600"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h4&gt;單連桿組裝影片&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/213016106" width="640" height="473" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/213016106"&gt;組合&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h4&gt;單連桿導入v-rep影片&lt;/h4&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/213016075" width="640" height="473" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/213016075"&gt;導入v-rep&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;h3&gt;網際動態模擬&lt;/h3&gt;
 &lt;!-- 導入 Brython 標準程式庫 3.3.1 --&gt;
 
@@ -154,7 +178,9 @@ def armPathFn(time, opts):
 
 cgo.animate(armGrp, initArm, armPathFn, animData)
 cgo.playAnimation()
-&lt;/script&gt;</summary><category term="hw"></category></entry><entry><title>第三周作業</title><link href="./di-san-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-09T12:08:00+08:00</published><updated>2017-03-09T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-09:./di-san-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;翻譯影片
+&lt;/script&gt;
+
+&lt;p&gt;心得:這周畫了跟第一周很相似的單連桿，因為有第一次的練習所以這次用solvespace話就很快，也練習了導入v-rep&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>第三周作業</title><link href="./di-san-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-09T12:08:00+08:00</published><updated>2017-03-09T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-09:./di-san-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;翻譯影片
 &lt;/p&gt;
 &lt;h4&gt;hyperworks3&lt;/h4&gt;
 &lt;iframe src="https://player.vimeo.com/video/207229503" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
