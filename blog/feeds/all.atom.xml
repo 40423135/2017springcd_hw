@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423135 陳冠錡 Blog</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-03-23T12:08:00+08:00</updated><entry><title>第五周作業</title><link href="./di-wu-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-23T12:08:00+08:00</published><updated>2017-03-23T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-23:./di-wu-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;利用v-rep設定單連桿運動
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423135 陳冠錡 Blog</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-05-04T12:08:00+08:00</updated><entry><title>第十一周作業</title><link href="./di-shi-yi-zhou-zuo-ye.html" rel="alternate"></link><published>2017-05-04T12:08:00+08:00</published><updated>2017-05-04T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-05-04:./di-shi-yi-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;協同 2D 正齒輪傳動繪圖
+&lt;/p&gt;
+&lt;p&gt;心得:&lt;/p&gt;
+&lt;p&gt;透過老師的上課影片教學,可以讓我了解到 v-rep如何分解零件、設置旋轉軸
+看老師上課做滿難的，自己看影片實際跟著做練習了一次!&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>期中自評作業</title><link href="./qi-zhong-zi-ping-zuo-ye.html" rel="alternate"></link><published>2017-04-20T12:08:00+08:00</published><updated>2017-04-20T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-04-20:./qi-zhong-zi-ping-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;p&gt;心得:&lt;/p&gt;
+&lt;p&gt;透過老師的上課影片教學,可以讓我了解到 v-rep如何分解零件、設置旋轉軸
+看老師上課做滿難的，自己看影片實際跟著做練習了一次!&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>第五周作業</title><link href="./di-wu-zhou-zuo-ye.html" rel="alternate"></link><published>2017-03-23T12:08:00+08:00</published><updated>2017-03-23T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-03-23:./di-wu-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;利用v-rep設定單連桿運動
 &lt;/p&gt;
 &lt;h4&gt;利用v-rep設定單連桿運動影片&lt;/h4&gt;
 &lt;iframe src="https://player.vimeo.com/video/213009933" width="640" height="396" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
