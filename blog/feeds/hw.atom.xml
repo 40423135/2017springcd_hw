@@ -19,7 +19,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 繪圖--&gt;
 
-&lt;canvas id="onegear" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;canvas id="onegear2" width="800" height="600"&gt;&lt;/canvas&gt;
 
 &lt;div id="onegear_div" width="800" height="20"&gt;&lt;/div&gt;
 
@@ -52,9 +52,9 @@ class Spur(object):
         # 齒輪漸開線分成 15 線段繪製
         imax = 15
         # 在輸入的畫布上繪製直線, 由圓心到節圓 y 軸頂點畫一直線
-        self.create_line(midx, midy, midx, midy-rp)
+        self.create_line(midx+rp, midy, midx-rp, midy)
         # 畫出 rp 圓, 畫圓函式尚未定義
-        #create_oval(midx-rp, midy-rp, midx+rp, midy+rp, width=2)
+        # create_oval(midx-rp, midy-rp, midx+rp, midy+rp, width=2)
         # a 為模數 (代表公制中齒的大小), 模數為節圓直徑(稱為節徑)除以齒數
         # 模數也就是齒冠大小
         a=2*rp/n
@@ -144,28 +144,24 @@ class Spur(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             self.create_line(lfx,lfy,rfx,rfy,fill=color)
-canvas = doc['onegear']
+canvas = doc['onegear2']
 ctx = canvas.getContext("2d")
 x = (canvas.width)/2
 y = (canvas.height)/2
-r = 0.8*(canvas.height/2)
+r = 250
 # 齒數
 n = 36
 # 壓力角
 pa = 20
 Spur(ctx).Gear(x, y, r, n, pa, "blue")
-# 以下列出 W11 2B 未出席人數
-data = open("./../data/w11/2b0503.txt", encoding="utf-8").read()
-count = 0
-# 去掉前面兩列
-student = data.split("\n")[2:]
-for i in range(len(student)):
-    each = student[i].split("\t")
-    if each[1] != "出席":
-        count = count + 1
-#print(count)
-div = doc["onegear_div"]
-div &lt;= "2b: " +  str(count) + "/" + str(len(student))
+
+ctx.beginPath()
+ctx.lineWidth = "600"
+ctx.strokeStyle = "white"
+ctx.moveTo(0,600)
+ctx.lineTo(800,600)
+ctx.stroke()
+
 &lt;/script&gt;</summary><category term="hw"></category></entry><entry><title>第十三周作業</title><link href="./di-shi-san-zhou-zuo-ye.html" rel="alternate"></link><published>2017-05-25T12:08:00+08:00</published><updated>2017-05-25T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-05-25:./di-shi-san-zhou-zuo-ye.html</id><summary type="html">&lt;h2&gt;介紹齒輪&lt;/h2&gt;
 
 
