@@ -179,6 +179,12 @@ ctx.moveTo(0,600)
 ctx.lineTo(800,600)
 ctx.stroke()
 
+ctx.beginPath()
+ctx.fillStyle = "#E93EFF"
+ctx.font = "50px ScriptS"
+ctx.fillText("40423135 ",300,300)
+ctx.stroke()
+
 &lt;/script&gt;
 
 &lt;h3&gt;2.第二個 800x600 的畫布, 請畫出只有一齒輪廓, 且充滿畫布 80% 範圍的正齒輪, 且該齒輪廓下方水平線, 連接兩端齒根圓點交的直線以紅色繪製, 且在齒輪下方以藍色字元寫上自己的學號.&lt;/h3&gt;
@@ -1461,7 +1467,68 @@ def draw():
     cgo.render(gear2, {'x':cx+pr*2*0.5*2-pr/2, 'y':cy, 'scl':0.5, 'degs':0})
 
 set_interval(draw, 2)
-&lt;/script&gt;</summary><category term="hw"></category></entry><entry><title>期中自評作業</title><link href="./qi-zhong-zi-ping-zuo-ye.html" rel="alternate"></link><published>2017-04-20T12:08:00+08:00</published><updated>2017-04-20T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-04-20:./qi-zhong-zi-ping-zuo-ye.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+&lt;/script&gt;</summary><category term="hw"></category></entry><entry><title>第十周作業</title><link href="./di-shi-zhou-zuo-ye.html" rel="alternate"></link><published>2017-04-27T12:08:00+08:00</published><updated>2017-04-27T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-04-27:./di-shi-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;1.+法運算&lt;/p&gt;
+&lt;p&gt;2.-法運算&lt;/p&gt;
+&lt;p&gt;3.*法運算&lt;/p&gt;
+&lt;p&gt;4./法運算&lt;/p&gt;
+
+
+&lt;h2&gt;1.+法運算&lt;/h2&gt;
+&lt;p&gt;+法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b): //def用於定義函式和類型的方法
+    return a+b //將a+b值傳回主程式中
+&lt;/pre&gt;
++法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys //插入sys檔案中所有函式
+sys.path.append("./m1")//資料夾路徑
+import add //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2) //乘法演算&lt;/p&gt;
+&lt;p&gt;print(sum) //輸出結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;2.-法運算&lt;/h2&gt;
+&lt;p&gt;-法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b): //def用於定義函式和類型的方法
+    return a-b //將a-b值傳回主程式中
+&lt;/pre&gt;
+-法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys //插入sys檔案中所有函式
+sys.path.append("./m1") //資料夾路徑
+import add //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2) //乘法演算&lt;/p&gt;
+&lt;p&gt;print(sum) //輸出結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;3.*法運算&lt;/h2&gt;
+&lt;p&gt;乘法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b): //def用於定義函式和類型的方法
+    return a* b //將a乘b值傳回主程式中
+&lt;/pre&gt;
+乘法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys //插入sys檔案中所有函式
+sys.path.append("./m1") //資料夾路徑
+import add //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2) //乘法演算&lt;/p&gt;
+&lt;p&gt;print(sum) //輸出結果
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;4./法運算&lt;/h2&gt;
+&lt;p&gt;/法程式碼(add.py)
+&lt;pre class="brush: python"&gt;
+def add (a,b): //def用於定義函式和類型的方法
+    return a/b //將a/b值傳回主程式中
+&lt;/pre&gt;
+/法程式碼(print.py)
+&lt;pre class="brush: python"&gt;
+import sys//插入sys檔案中所有函式
+sys.path.append("./m1") //資料夾路徑
+import add//導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2) // /法演算&lt;/p&gt;
+&lt;p&gt;print(sum) //輸出結果
+&lt;/pre&gt;&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>第九周期中自評</title><link href="./di-jiu-zhou-qi-zhong-zi-ping.html" rel="alternate"></link><published>2017-04-20T12:08:00+08:00</published><updated>2017-04-20T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-04-20:./di-jiu-zhou-qi-zhong-zi-ping.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;p&gt;心得:&lt;/p&gt;
 &lt;p&gt;透過老師的上課影片教學,可以讓我了解到 v-rep如何分解零件、設置旋轉軸
