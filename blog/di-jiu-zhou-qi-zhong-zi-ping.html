@@ -336,6 +336,38 @@ init_mathjax();
 <h3>行走機構組裝圖</h3>
 <p><iframe src="https://player.vimeo.com/video/222493042" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/222493042">???????? ???????? 40423135 ???? ???</a> from <a href="https://vimeo.com/user44207133">40423135</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+<p><link href="./../work/madeleine/src/css/Madeleine.css" rel="stylesheet">
+<script src="./../work/madeleine/src/stats.js"></script>
+<script src="./../work/madeleine/src/detector.js"></script>
+<script src="./../work/madeleine/src/three.min.js"></script>
+<script src="./../work/madeleine/src/Madeleine.js"></script></p>
+<div id="target" class="madeleine"></div>
+
+<script>
+window.onload = function(){
+    var madeleine = new Madeleine({
+      target: 'target', // target div id
+      data: './../data/Fourbar Walker.stl', // data path
+      path: './../work/madeleine/src/' // path to source directory from current html file
+    });
+}; 
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"
+></script>
+
+<script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"
+></script>
+
+<script src="./../data/w9/loader.js"></script>
+
+<script src="./../data/w9/stl.js"></script>
+
+<div>
+select stl file: <input type="file" id="file" /> or drop stl file
+</div>
+
+<div id="view"></div>
             </div>
             <!-- /.entry-content -->
         </article>
