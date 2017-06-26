@@ -5,42 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-06-22T09:30:38-00:00</lastmod>
+<lastmod>2017-06-26T19:16:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-06-22T09:30:38-00:00</lastmod>
+<lastmod>2017-06-26T19:16:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-06-22T09:30:38-00:00</lastmod>
+<lastmod>2017-06-26T19:16:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-06-22T09:30:38-00:00</lastmod>
+<lastmod>2017-06-26T19:16:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-06-22T09:24:17+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./w17xing-zou-ji-gou-2djing-tai-gou-tu.html</loc>
-<lastmod>2017-06-15T12:08:00+08:00</lastmod>
+<lastmod>2017-06-26T18:11:29+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -124,21 +117,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/hw.html</loc>
-<lastmod>2017-06-15T12:08:00+08:06</lastmod>
+<lastmod>2017-06-01T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/hw.html</loc>
-<lastmod>2017-06-15T12:08:00+08:06</lastmod>
+<lastmod>2017-06-01T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40423135.html</loc>
-<lastmod>2017-06-15T12:08:00+08:06</lastmod>
+<lastmod>2017-06-01T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

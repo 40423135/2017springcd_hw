@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423135 陳冠錡 Blog</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-15T12:08:00+08:00</updated><entry><title>w17行走機構 2D靜態構圖</title><link href="./w17xing-zou-ji-gou-2djing-tai-gou-tu.html" rel="alternate"></link><published>2017-06-15T12:08:00+08:00</published><updated>2017-06-15T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-06-15:./w17xing-zou-ji-gou-2djing-tai-gou-tu.html</id><summary type="html">&lt;p&gt;1.各組員倉儲中的 Github 檔案推送&lt;/p&gt;
-&lt;p&gt;2.各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
-
-
-&lt;p&gt;3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
-&lt;p&gt;4.各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件&lt;/p&gt;
-&lt;p&gt;5.各組員 Solvespace 零件轉入 V-rep, 並設定驅動零件進行動態模擬&lt;/p&gt;
-&lt;p&gt;6.各組員說明在分組行走機構模擬與實作過程中所扮演的角色, 並利用影片檔說明所負責完成的任務&lt;/p&gt;
-&lt;p&gt;7.各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.&lt;/p&gt;
-&lt;h3&gt;雙軸零件一繪製&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/222601196" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/222601196"&gt;國立虎尾科技大學 協同產品設計實習 40423135 雙軸 零件一&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-&lt;h3&gt;雙軸零件二繪製&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/222601567" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/222601567"&gt;國立虎尾科技大學 協同產品設計實習 40423135 雙軸 零件二&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-&lt;h2&gt;雙軸組合  HTML&lt;/h2&gt;
-&lt;p&gt;&lt;iframe src="./../data/hw17/雙軸組合圖.html" width="800" height="600"&gt;&lt;/iframe&gt;&lt;/p&gt;
-&lt;h3&gt;行走機構組裝圖&lt;/h3&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/222493042" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/222493042"&gt;???????? ???????? 40423135 ???? ???&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>第十五周作業</title><link href="./di-shi-wu-zhou-zuo-ye.html" rel="alternate"></link><published>2017-06-01T12:08:00+08:00</published><updated>2017-06-01T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-06-01:./di-shi-wu-zhou-zuo-ye.html</id><summary type="html">&lt;ol&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423135 陳冠錡 Blog</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2017-06-01T12:08:00+08:00</updated><entry><title>第十五周作業</title><link href="./di-shi-wu-zhou-zuo-ye.html" rel="alternate"></link><published>2017-06-01T12:08:00+08:00</published><updated>2017-06-01T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-06-01:./di-shi-wu-zhou-zuo-ye.html</id><summary type="html">&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;請以 W15 練習為網誌標題, 800x600 為畫布大小, 在畫布正中央畫一個半徑為 250 畫素, 壓力角 20, 齒數為 36 齒, 且只有上半齒形的漸開線正齒輪輪廓.&lt;/p&gt;
 &lt;/li&gt;
