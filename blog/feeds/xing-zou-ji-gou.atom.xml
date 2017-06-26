@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423135 陳冠錡 Blog</title><link href="./" rel="alternate"></link><link href="./feeds/xing-zou-ji-gou.atom.xml" rel="self"></link><id>./</id><updated>2017-06-15T12:08:00+08:00</updated><entry><title>W17 行走機構 2D 靜態繪圖</title><link href="./w17-xing-zou-ji-gou-2d-jing-tai-hui-tu.html" rel="alternate"></link><published>2017-06-15T12:08:00+08:00</published><updated>2017-06-15T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-06-15:./w17-xing-zou-ji-gou-2d-jing-tai-hui-tu.html</id><summary type="html">&lt;p&gt;1.各組員倉儲中的 Github 檔案推送&lt;/p&gt;
+&lt;p&gt;2.各組員網誌上的 2D 繪圖, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
+
+
+&lt;p&gt;3.各組員倉儲中的子模組建立與運用, 並將程式碼顯示在繪圖網誌文章中&lt;/p&gt;
+&lt;p&gt;4.各組員 Solvespace 近端零組件繪圖, 並在各組員網誌中顯示指定的零組件&lt;/p&gt;
+&lt;p&gt;5.各組員 Solvespace 零件轉入 V-rep, 並設定驅動零件進行動態模擬&lt;/p&gt;
+&lt;p&gt;6.各組員說明在分組行走機構模擬與實作過程中所扮演的角色, 並利用影片檔說明所負責完成的任務&lt;/p&gt;
+&lt;p&gt;7.各組以協同方式整合各組組員所完成的倉儲, 網誌與操作影片後, 以學號名稱當作子目錄, 其中放入各組員上述各題所完成的操作影片後, 上傳到各組在系上的 Fossil SCM 倉儲, 並設法用各組的 Github Pages 進行分組簡報.&lt;/p&gt;
+&lt;h3&gt;第六組ag6網站&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://40423126.github.io/2017springcd_ag6/blog/index.html"&gt;ag6 Blog(點我)&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;行走機構ag6分配工作&lt;/h3&gt;
+&lt;p&gt;40423126: onshape協同組裝行走機構零件、分配工作&lt;/p&gt;
+&lt;p&gt;40423135: 設計行走機構零件、協助模擬行走機構v-rep&lt;/p&gt;
+&lt;p&gt;40423122: onshape協同畫行走機構零件圖&lt;/p&gt;
+&lt;p&gt;40423140: onshape協同畫行走機構零件圖&lt;/p&gt;
+&lt;p&gt;40423145: 模擬行走機構v-rep&lt;/p&gt;
+&lt;h3&gt;行走機構零件圖繪製&lt;/h3&gt;
+&lt;h3&gt;零件一 本體&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222493546" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222493546"&gt;國立虎尾科技大學 協同產品設計實習 40423135 行走機構 零件一&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;零件二 連桿170cm&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222493700" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222493700"&gt;國立虎尾科技大學 協同產品設計實習 40423135 行走機構 零件二&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;零件三 傳動軸&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222493913" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222493913"&gt;國立虎尾科技大學 協同產品設計實習 40423135 行走機構 零件三&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/222493987" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222493987"&gt;國立虎尾科技大學 協同產品設計實習 40423135 行走機構 零件三修改&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;零件四 連桿140cm&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222494234" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222494234"&gt;國立虎尾科技大學 協同產品設計實習 40423135 行走機構 零件四&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;零件五~七 銷20、25cm&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222494121" width="640" height="356" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222494121"&gt;國立虎尾科技大學 協同產品設計實習 40423135 行走機構 零件五~七&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;行走機構組裝圖&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/222493042" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/222493042"&gt;國立虎尾科技大學 協同產品設計實習 40423135 行走機構 組裝圖&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;行走機構零件onshape模擬&lt;/h3&gt;
+&lt;h3&gt;行走機構零件v-rep模擬&lt;/h3&gt;
+&lt;h3&gt;行走機構零件onshape下載&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/6b09fbe55ff6f80ed097a052/w/7d0eb779e16695796c331a8f/e/09d3270bb7ba886b520e3622"&gt;行走機構零件一 本體(點我)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="hhttps://cad.onshape.com/documents/d054115b1422c95050a9a69d/w/07b93af5aa99c9510617940e/e/9a6d9a7497e44503a401e1ad"&gt;行走機構零件二 連桿170cm(點我)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/dd290a2d908eaefde5c79f12/w/e0782f41c7bc19ba6dd0ace2/e/b5f8abd98ec8aded13043742"&gt;行走機構零件三 傳動軸(點我)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/8b67f73706a1ed0ec7a2706d/w/76b47a83b681a7c092128f76/e/72cf85187cd9598d5d994890"&gt;行走機構零件四 連桿140cm(點我)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/cc6777b22ff42aba8dd40594/w/d2300dd883248b454639e4f7/e/7868f5b2592131b2c39504d0"&gt;行走機構零件五 銷25cm(點我)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/2cd8cd134de7b4f5633788a7/w/2499d82e2b4a3641589aa0b3/e/7c19b1eb796af1ff6f6c1ac9"&gt;行走機構零件七 銷20cm(點我)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/50b9234aadaf282aa63c7163/w/4eadf7b5c8edf4a7b5f55f8a/e/030b515c152af67a3b54822d"&gt;行走機構零件八 連桿150cm(點我)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/b66878a4ba69807c16682831/w/47ec9e83e64aa6623db7a8c6/e/ff90c1d771b38c71d45eaf84"&gt;行走機構組裝圖 (點我)&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;雙軸零件一繪製&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/222601196" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/222601196"&gt;國立虎尾科技大學 協同產品設計實習 40423135 雙軸 零件一&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;雙軸零件二繪製&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/222601567" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/222601567"&gt;國立虎尾科技大學 協同產品設計實習 40423135 雙軸 零件二&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h2&gt;雙軸組合  HTML&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="./../data/hw17/雙軸組合圖.html" width="800" height="600"&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><category term="行走機構"></category></entry></feed>
