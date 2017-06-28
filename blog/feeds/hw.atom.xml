@@ -1531,7 +1531,17 @@ def draw():
     cgo.render(gear2, {'x':cx+pr*2*0.5*2-pr/2, 'y':cy, 'scl':0.5, 'degs':0})
 
 set_interval(draw, 2)
-&lt;/script&gt;</summary><category term="hw"></category></entry><entry><title>第十周作業</title><link href="./di-shi-zhou-zuo-ye.html" rel="alternate"></link><published>2017-04-27T12:08:00+08:00</published><updated>2017-04-27T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-04-27:./di-shi-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;1.+法運算&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;h3&gt;齒輪onshape繪製&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/223457954" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/223457954"&gt;國立虎尾科技大學 協同產品設計實習 40423135 齒輪onshape繪製&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;輪結合 onshape模擬轉動&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/223457864" width="640" height="358" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/223457864"&gt;國立虎尾科技大學 協同產品設計實習 40423135 齒輪結合 onshape模擬轉動&lt;/a&gt; from &lt;a href="https://vimeo.com/user44207133"&gt;40423135&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="hw"></category></entry><entry><title>第十周作業</title><link href="./di-shi-zhou-zuo-ye.html" rel="alternate"></link><published>2017-04-27T12:08:00+08:00</published><updated>2017-04-27T12:08:00+08:00</updated><author><name>40423135</name></author><id>tag:,2017-04-27:./di-shi-zhou-zuo-ye.html</id><summary type="html">&lt;p&gt;1.+法運算&lt;/p&gt;
 &lt;p&gt;2.-法運算&lt;/p&gt;
 &lt;p&gt;3.*法運算&lt;/p&gt;
 &lt;p&gt;4./法運算&lt;/p&gt;
